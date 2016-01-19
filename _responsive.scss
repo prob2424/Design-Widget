@@ -1,0 +1,44 @@
+/*This imported*/
+
+// Phones
+
+@media (max-width:480px){
+  .mobile {
+    width:100%;}
+
+  .wrap {
+    width:100%;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    padding:15px;}
+
+}
+
+
+
+// Tablets
+
+@media (max-width:768px){
+  .mobile {
+    width:100%;
+  }
+
+  nav li {
+    float: none;
+    display:block;
+    padding:10px;
+    width:100%;
+    background-color: #f2f2f2;
+    border-bottom:1px dotted #53738c;
+    border-right: 0px;
+    color:black;
+  }
+
+nav li a {
+
+}
+
+
+
+}

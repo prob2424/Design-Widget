@@ -1,0 +1,76 @@
+/*This imported*/
+
+nav {
+  background-color: #76b1b9;
+  margin-bottom:0px;
+}
+
+.navigation {
+  display: none;
+
+  @media #{$mq-desk} {
+    display: block !important;
+  }
+}
+
+.nav-content {
+  margin-top: 0px;
+  margin-left:auto;
+  margin-right: auto;
+  max-width: 1200px;
+
+  @media #{$mq-desk} {
+    padding: 10px;
+    padding-left:2px;
+  }
+}
+
+
+nav ul {
+  display: block;
+  list-style: none;
+  overflow: hidden;
+}
+
+nav li {
+  float:left;
+  padding:5 15 5 15;
+  border-right:1px dotted #53738c;
+  color:black;
+}
+
+.first {
+  padding-left:10px;
+}
+
+
+.mobile-menu {
+  display: block;
+  padding: 10px 0 10px 13px;
+  padding-top: 10px;
+  padding-left: 13px;
+
+  @media #{$mq-desk} {
+    display: none;
+  }
+}
+// hamburger icon
+
+.hamburger {
+  display:block;
+  cursor:pointer;
+  width:40px;
+  height:30px;
+  border:0px solid gray;
+  padding-top:2px;
+}
+
+.fixings {
+  display:block;
+  background-color:#ffffff;
+  height:5px;
+  width:85%;
+  margin:3px;
+
+
+}

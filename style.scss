@@ -1,0 +1,37 @@
+$mq-desk: 'only screen and (min-width: 776px)';
+$mq-mob: 'only screen and (max-width: 775px)';
+
+$colors: (
+  "text": #000,
+  "links": blue,
+  "headlines": red
+);
+
+$spacing-small: 1px;
+
+$spacing: (
+  "small": 1px,
+  "mid": 10px,
+  "large": 30px
+);
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #525252;
+}
+
+.class {
+  border-style: map-get($colors, "links");
+}
+
+@import 'typography';
+@import 'layout';
+@import 'navigation';
+@import 'responsive';

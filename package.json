@@ -1,0 +1,17 @@
+{
+  "name": "sample-1",
+  "version": "1.0.0",
+  "description": "Further Front End development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PR",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "gulp": "^3.9.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.1"
+  }
+}
